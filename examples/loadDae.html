@@ -163,7 +163,8 @@ function traverse(daet,name){
 		    for(var i=0;i<child.material.materials.length;++i){
 			if(child.material.materials[i] instanceof THREE.MeshBasicMaterial ||
 			   child.material.materials[i] instanceof THREE.MeshLambertMaterial ||
-			   child.material.materials[i] instanceof THREE.MeshPhongMaterial ||
+			   child.material.materials[i] instanceof THREE.Mesh
+			   Material ||
 			   child.material.materials[i] instanceof THREE.MeshNormalMaterial ||
 			   child.material.materials[i] instanceof THREE.MeshFaceMaterial ||
 			   child.material.materials[i] instanceof THREE.Material ||
@@ -204,8 +205,8 @@ function traverse(daet,name){
 				}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
-							mainmaterial=new THREE.MeshPhongMaterial( {map:maintexture, color: om.color,
-												   specular: om.specular, shininess:om.shininess,
+							mainmaterial=new THREE.MeshLambertMaterial( {map:maintexture, color: om.color,
+												  
 				alphaMap :om.alphaMap , 
 				shading: THREE.SmoothShading } );    
 			

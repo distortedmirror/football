@@ -163,8 +163,7 @@ function traverse(daet,name){
 		    for(var i=0;i<child.material.materials.length;++i){
 			if(child.material.materials[i] instanceof THREE.MeshBasicMaterial ||
 			   child.material.materials[i] instanceof THREE.MeshLambertMaterial ||
-			   child.material.materials[i] instanceof THREE.Mesh
-			   Material ||
+			   child.material.materials[i] instanceof THREE.MeshMaterial ||
 			   child.material.materials[i] instanceof THREE.MeshNormalMaterial ||
 			   child.material.materials[i] instanceof THREE.MeshFaceMaterial ||
 			   child.material.materials[i] instanceof THREE.Material ||

@@ -199,11 +199,10 @@ function traverse(daet,name){
 				{
 				    maintexture.wrapT=THREE.ClampToEdgeWrapping;
 				    maintexture.wrapS=THREE.ClampToEdgeWrapping;
-				    maintexture.minFilter=THREE.LinearFilter;
+				    maintexture.minFilter=THREE.NearestFilter;
 				}
 				    try{
-				    maintexture.generateMipmaps=true;
-				    maintexture.minFilter =THREE.LinearMipMapNearestFilter;}catch(ee){;}
+				    maintexture.generateMipmaps=true;}catch(ee){;}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
 							mainmaterial=new THREE.ShaderMaterial( {map:maintexture,flatShading:false, color: om.color,

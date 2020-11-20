@@ -174,7 +174,7 @@ function traverse(daet,name){
 			       (child.material.materials[i].map.image==null ||
 				child.material.materials[i].map.image==undefined)){
 				//mats.push(child.material.materials[i]);
-			    }
+			    }else{mats.push(child.material.materials[i]);}
 
 			if(	child.material.materials[i].map!=null &&
 				child.material.materials[i].map!=undefined){

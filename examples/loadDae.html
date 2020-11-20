@@ -203,7 +203,7 @@ function traverse(daet,name){
 				}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
-							mainmaterial=new THREE.ShaderMaterial( {map:maintexture, color: om.color,
+							mainmaterial=new THREE.ShaderMaterial( {map:maintexture,shading:THREE.SmoothShading, color: om.color,
 												  
 				alphaMap :om.alphaMap , 
 				shading: THREE.Smooth } );    

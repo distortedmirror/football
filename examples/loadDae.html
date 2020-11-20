@@ -96,7 +96,7 @@ function initXMLParser(){
 }
 function load(){
     var loader =new THREE.ColladaLoader();
-    loader.setPreferredShading(THREE.FlatShading);
+    loader.setPreferredShading(THREE.SmoothShading);
     loader.options.centerGeometry =true;
     loader.options.subdivideFaces =true;
     loader.options.convertUpAxis = true;
@@ -174,7 +174,7 @@ function traverse(daet,name){
 			       (child.material.materials[i].map.image==null ||
 				child.material.materials[i].map.image==undefined)){
 				//mats.push(child.material.materials[i]);
-			    }else{mats.push(child.material.materials[i]);}
+			    }else{}
 
 			if(	child.material.materials[i].map!=null &&
 				child.material.materials[i].map!=undefined){
@@ -203,17 +203,18 @@ function traverse(daet,name){
 				}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
-							mainmaterial=new THREE.MeshLambertMaterial( {map:maintexture, color: om.color,
+							mainmaterial=new THREE.ShaderMaterial( {map:maintexture, color: om.color,
 												  
 				alphaMap :om.alphaMap , 
-				shading: THREE.FlatShading } );    
+				shading: THREE.Smooth } );    
 			
 				mainmaterial=child.material.materials[i];
 				mainmaterial.needsUpdate=true;
 				mainmaterial.visible=true;
-				mats=[];
-				mats.unshift(mainmaterial);
-				break;
+			//	mats=[];
+			//	mats.unshift(mainmaterial);
+			mats.push(mainmaterial);
+				    break;
 			    }
 
 			}

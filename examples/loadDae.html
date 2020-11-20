@@ -96,7 +96,7 @@ function initXMLParser(){
 }
 function load(){
     var loader =new THREE.ColladaLoader();
-    loader.setPreferredShading(THREE.SmoothShading);
+    loader.setPreferredShading(THREE.FlatShading);
     loader.options.centerGeometry =true;
     loader.options.subdivideFaces =true;
     loader.options.convertUpAxis = true;
@@ -206,7 +206,7 @@ function traverse(daet,name){
 							mainmaterial=new THREE.MeshLambertMaterial( {map:maintexture, color: om.color,
 												  
 				alphaMap :om.alphaMap , 
-				shading: THREE.SmoothShading } );    
+				shading: THREE.FlatShading } );    
 			
 				mainmaterial=child.material.materials[i];
 				mainmaterial.needsUpdate=true;

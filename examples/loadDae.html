@@ -203,11 +203,11 @@ function traverse(daet,name){
 				}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
-				/*				mainmaterial=new THREE.MeshPhongMaterial( {map:maintexture, color: om.color,
-				//									   specular: om.specular, shininess:om.shininess,
+							mainmaterial=new THREE.MeshPhongMaterial( {map:maintexture, color: om.color,
+												   specular: om.specular, shininess:om.shininess,
 				alphaMap :om.alphaMap , 
 				shading: THREE.SmoothShading } );    
-				*/
+			
 				mainmaterial=child.material.materials[i];
 				mainmaterial.needsUpdate=true;
 				mainmaterial.visible=true;

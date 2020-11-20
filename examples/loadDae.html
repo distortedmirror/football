@@ -205,7 +205,7 @@ function traverse(daet,name){
 				    maintexture.generateMipmaps=true;}catch(ee){;}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
-							mainmaterial=new THREE.ShaderMaterial( {map:maintexture,flatShading:false, color: om.color,
+							mainmaterial=new THREE.ShaderMaterial( {map:maintexture,side:THREE.DoubleSide,flatShading:false, color: om.color,
 												  
 				alphaMap :om.alphaMap , 
 				shading: THREE.SmoothShading } );    

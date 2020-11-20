@@ -201,12 +201,15 @@ function traverse(daet,name){
 				    maintexture.wrapS=THREE.ClampToEdgeWrapping;
 				    maintexture.minFilter=THREE.LinearFilter;
 				}
+				    try{
+				    maintexture.generateMipmaps=true;
+				    maintexture.minFilter =THREE.LinearMipMapNearestFilter;}catch(ee){;}
 				maintexture.image.needsUpdate=true;
 				var om=child.material.materials[i];
-							mainmaterial=new THREE.ShaderMaterial( {map:maintexture,flatShading:true, color: om.color,
+							mainmaterial=new THREE.ShaderMaterial( {map:maintexture,flatShading:false, color: om.color,
 												  
 				alphaMap :om.alphaMap , 
-				shading: THREE.Smooth } );    
+				shading: THREE.SmoothShading } );    
 			
 				mainmaterial=child.material.materials[i];
 				mainmaterial.needsUpdate=true;

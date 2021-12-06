@@ -294,6 +294,56 @@ jsonHash[divHTML.id].c=[
                                                         "c": [],
                                                         "contenteditable": "",
                                                         "dropzone": ""
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVVXDImageTwo",
+                                                        "innerHTML": "%3Ciframe%20width%3D%22560%22%20height%3D%22315%22%20src%3D%22https%3A//www.youtube.com/embed/rlIAusZ5GyQ%22%20title%3D%22YouTube%20video%20player%22%20frameborder%3D%220%22%20allow%3D%22accelerometer%3B%20autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectImage",
+                                                        "style": {}
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "e": "DIV",
+                                                "id": "DIVJobIntel",
+                                                "innerHTML": "",
+                                                "stylesheetid": "STYLEPage",
+                                                "styleruletype": "Class",
+                                                "class": "DIVProject",
+                                                "style": {},
+                                                "c": [
+                                                    {
+                                                        "e": "SPAN",
+                                                        "id": "SPANJobIntelTitle",
+                                                        "innerHTML": "Job%20Intelligence",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "SPANProjectTitle",
+                                                        "style": {}
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVJobIntelImage",
+                                                        "innerHTML": "%3Ciframe%20width%3D%22560%22%20height%3D%22315%22%20src%3D%22https%3A//www.youtube.com/embed/5ZQtsBewDEk%22%20title%3D%22YouTube%20video%20player%22%20frameborder%3D%220%22%20allow%3D%22accelerometer%3B%20autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectImage",
+                                                        "style": {}
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVJobIntelSummary",
+                                                        "innerHTML": "Job Intelligence is a web app that collects a job search profile and crawls dice.com for all the jobs that matches the search criteria, parses and extracts the job information, mines the data, generates advanced analytic charts, and was intended to submit a mass job application submission, or otherwise help me find a job quickly.&nbsp; The browsing path to crawl was a browser recording for test replay that was modified to scrape the data.&nbsp; The database is SQL Server, the web portion was ASP.net and the charts were SQL Reporting Services.",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectSummary",
+                                                        "style": {},
+                                                        "c": [],
+                                                        "contenteditable": "",
+                                                        "dropzone": ""
                                                     }
                                                 ]
                                             }

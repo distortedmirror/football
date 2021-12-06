@@ -386,6 +386,44 @@ jsonHash[divHTML.id].c=[
                                                         "dropzone": ""
                                                     }
                                                 ]
+                                            },
+                                            {
+                                                "e": "DIV",
+                                                "id": "DIVFlingPix",
+                                                "innerHTML": "",
+                                                "stylesheetid": "STYLEPage",
+                                                "styleruletype": "Class",
+                                                "class": "DIVProject",
+                                                "style": {},
+                                                "c": [
+                                                    {
+                                                        "e": "SPAN",
+                                                        "id": "SPANFlingPixTitle",
+                                                        "innerHTML": "FlingPix",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "SPANProjectTitle",
+                                                        "style": {}
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVFlingPixImage",
+                                                        "innerHTML": "%3Ciframe%20width%3D%22560%22%20height%3D%22315%22%20src%3D%22https%3A//www.youtube.com/embed/DTDEyzNMdUQ%22%20title%3D%22YouTube%20video%20player%22%20frameborder%3D%220%22%20allow%3D%22accelerometer%3B%20autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectImage",
+                                                        "style": {}
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVFlingPixSummary",
+                                                        "innerHTML": "FlingPix%20enables%20for%20a%20picture%20to%20be%20taken%20and%20allow%20touch%20drag%20guestures%20to%20spin%20the%20image%20on%20several%20axis%2C%20depending%20on%20the%20differentials%20of%20the%20touch%20guesture.%20%20If%20your%20device%20has%20the%20magnetic%20gravity%20sensor%2C%20there%20is%20a%20mode%20where%20the%20image%20stays%20parallel%20to%20gravity%20no%20matter%20the%20orientation.%20%20Other%20modes%20bind%20the%20spin%20to%20the%20accelerometer%20or%20gyroscope.%20%20The%20source%20code%20is%20at%20https%3A//github.com/markbrito/FlingPix.",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectSummary",
+                                                        "style": {}
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }

@@ -142,13 +142,14 @@ jsonHash[divHTML.id].c=[
                                                     {
                                                         "e": "DIV",
                                                         "id": "DIVDistortedMirrorSummary",
-                                                        "innerHTML": "[joking]I managed to break the laws of physics twice, first by bending light, and once again by modifying how light reflects.[/joking] =]<div><br></div><div><i>Open <a href=\"https://distortedmirror.github.io/cam.html\">https://distortedmirror.github.io/cam.html</a> with your Android or iPhone (and approve camera access) to see light bend!</i></div><div><i><br></i></div><div><i>&nbsp;Open <a href=\"https://distortedmirror.github.io/\">https://distortedmirror.github.io/</a> on Android, iPhone or Desktop</i><i>&nbsp;(and approve camera access)</i><i>&nbsp;to see light reflect different than mirrors do.</i></div><div><i><br></i></div><p align=\"justify\">Distorted Mirror stemmed from my endeavor to learn webGL for directly interfacing with Graphics Processing Units, which basically implements LA (Linear Algebra), VA (Vector Analysis) and PDE (Partial Differential Equations) mathematics in silicon, I set a goal to implement a video texture map, after which I progressed to texture map video from a camera device. I didn't even imagine it would implement a mirror, and visually realized it reflected differently than a mirror.&nbsp; I have considered implementing it, per the laws of optics with the proper physics equations.</p>",
+                                                        "innerHTML": "[joking]I managed to break the laws of physics twice, first by bending light, and once again by modifying how light reflects.[/joking] =]<div><br></div><div><i>Open <a href=\"https://distortedmirror.github.io/cam.html\">https://distortedmirror.github.io/cam.html</a> with your Android or iPhone (and approve camera access) to see light bend!</i></div><div><i><br></i></div><div><i>Open <a href=\"https://distortedmirror.github.io/\">https://distortedmirror.github.io/</a> on Android, iPhone or Desktop</i><i>&nbsp;(and approve camera access)</i><i>&nbsp;to see light reflect different than mirrors do</i></div><p align=\"left\">Distorted Mirror stemmed from my endeavor to learn webGL for directly interfacing with Graphics Processing Units, which basically implements LA (Linear Algebra), VA (Vector Analysis) and PDE (Partial Differential Equations) mathematics in silicon, I set a goal to implement a video texture map, after which I progressed to texture map video from a camera device. I didn't even imagine it would implement a mirror, and visually realized it reflected differently than a mirror.&nbsp; I have considered implementing it, per the laws of optics with the proper physics equations.</p>",
                                                         "stylesheetid": "STYLEPage",
                                                         "styleruletype": "Class",
                                                         "class": "DIVProjectSummary",
                                                         "style": {
                                                             "padding": "8px",
-                                                            "font-size": "16px"
+                                                            "font-size": "16px",
+                                                            "text-align": "left"
                                                         },
                                                         "c": [],
                                                         "contenteditable": "",
@@ -194,9 +195,7 @@ jsonHash[divHTML.id].c=[
                                                         "stylesheetid": "STYLEPage",
                                                         "styleruletype": "Class",
                                                         "class": "DIVProjectSummary",
-                                                        "style": {
-                                                            "text-align": "justify"
-                                                        },
+                                                        "style": {},
                                                         "c": [],
                                                         "contenteditable": "",
                                                         "dropzone": ""

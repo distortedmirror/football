@@ -91,7 +91,20 @@ jsonHash[divHTML.id].c=[
                                             "padding": "16px",
                                             "font-weight": "bold"
                                         },
-                                        "c": [],
+                                        "c": [
+                                            {
+                                                "e": "DIV",
+                                                "id": "DIVHeaderEmail",
+                                                "innerHTML": "mark.brito@gmail.com",
+                                                "stylesheetid": "STYLEPage",
+                                                "styleruletype": "Class",
+                                                "class": "DIVHeaderEmail",
+                                                "style": {
+                                                    "font-size": "18px",
+                                                    "padding-top": "8px"
+                                                }
+                                            }
+                                        ],
                                         "contenteditable": "",
                                         "dropzone": ""
                                     },
@@ -424,10 +437,93 @@ jsonHash[divHTML.id].c=[
                                                         "style": {}
                                                     }
                                                 ]
+                                            },
+                                            {
+                                                "e": "DIV",
+                                                "id": "DIVBizCard",
+                                                "innerHTML": "",
+                                                "stylesheetid": "STYLEPage",
+                                                "styleruletype": "Class",
+                                                "class": "DIVProject",
+                                                "style": {},
+                                                "c": [
+                                                    {
+                                                        "e": "SPAN",
+                                                        "id": "SPANBizCardTitle",
+                                                        "innerHTML": "Business%20Card%20Android%20App",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "SPANProjectTitle",
+                                                        "style": {}
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVBizCardImage",
+                                                        "innerHTML": "%3Ciframe%20width%3D%22560%22%20height%3D%22315%22%20src%3D%22https%3A//www.youtube.com/embed/DrmIW2qC0B8%22%20title%3D%22YouTube%20video%20player%22%20frameborder%3D%220%22%20allow%3D%22accelerometer%3B%20autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectImage",
+                                                        "style": {}
+                                                    },
+                                                    {
+                                                        "e": "DIV",
+                                                        "id": "DIVBizCardSummary",
+                                                        "innerHTML": "My business card app enabled me to quickly create an app that would serve as a way for people to be able to contact me via phone, text or email.&nbsp; It also provides access to google maps for directions to my location. Also, you can send me a picture, a video or a file from the app.",
+                                                        "stylesheetid": "STYLEPage",
+                                                        "styleruletype": "Class",
+                                                        "class": "DIVProjectSummary",
+                                                        "style": {},
+                                                        "c": [],
+                                                        "contenteditable": "",
+                                                        "dropzone": ""
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "e": "DIV",
+                                "id": "DIVPageHitCounter",
+                                "innerHTML": "%3Ca%20href%3D%22https%3A//www.freecounterstat.com%22%20title%3D%22website%20hits%20counter%22%3E%3Cimg%20src%3D%22https%3A//counter7.stat.ovh/private/freecounterstat.php%3Fc%3D2dfelmwt9z41ak1kbuh1htbnkbl2bcxq%22%20border%3D%220%22%20title%3D%22website%20hits%20counter%22%20alt%3D%22website%20hits%20counter%22%3E%3C/a%3E",
+                                "stylesheetid": "STYLEPage",
+                                "styleruletype": "ID",
+                                "style": {
+                                    "position": "absolute",
+                                    "right": "0%",
+                                    "top": "0%",
+                                    "padding": "10px",
+                                    "margin-right": "0px",
+                                    "transform": "matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0,0, 0, 0, 1)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "e": "DIV",
+                        "id": "DIVFooter",
+                        "innerHTML": "",
+                        "stylesheetid": "STYLEPage",
+                        "styleruletype": "ID",
+                        "style": {
+                            "position": "fixed",
+                            "left": "50%",
+                            "bottom": "0%",
+                            "color": "black"
+                        },
+                        "c": [
+                            {
+                                "e": "A",
+                                "id": "AMadeWithWebBuilder",
+                                "innerHTML": "Made%20with%20my%20HTML%20/CSS%20/Javascript%20IDE%2C%20Web%20Builder",
+                                "stylesheetid": "STYLEPage",
+                                "styleruletype": "ID",
+                                "style": {
+                                    "color": "black",
+                                    "font-style": "italic"
+                                },
+                                "href": "https%3A//distortedmirror.github.io/football/WebBuilder.html%3Fjs%3Dportfolio.js"
                             }
                         ]
                     }

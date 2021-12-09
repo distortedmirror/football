@@ -22,7 +22,8 @@ jsonHash[divHTML.id].c=[
             "height": "100%",
             "font-family": "Arial",
             "background-color": "silver",
-            "color": "navy"
+            "color": "#333333",
+            "azimuth": null
         },
         "c": [
             {
@@ -37,8 +38,8 @@ jsonHash[divHTML.id].c=[
                     "top": "0%",
                     "width": "100%",
                     "height": "100%",
-                    "background-color": "red",
-                    "background-image": "url(/football/examples/models/home/Roofing_Shingles_Asphalt_.jpg)",
+                    "background-color": "silver",
+                    "background-image": "url(/football/examples/models/west/brushedalum3.jpg)",
                     "background-repeat": "repeat"
                 },
                 "c": [
@@ -56,7 +57,7 @@ jsonHash[divHTML.id].c=[
                             "margin": "0px",
                             "bottom": "26px",
                             "right": "26px",
-                            "border-width": "8px",
+                            "border-width": "4px",
                             "border-style": "groove",
                             "border-color": "silver",
                             "background-color": "silver",
@@ -115,7 +116,7 @@ jsonHash[divHTML.id].c=[
                                         "stylesheetid": "STYLEPage",
                                         "styleruletype": "ID",
                                         "style": {
-                                            "border": "8px groove silver"
+                                            "border": "4px groove silver"
                                         },
                                         "c": [
                                             {
@@ -127,7 +128,7 @@ jsonHash[divHTML.id].c=[
                                                 "style": {
                                                     "text-align": "center",
                                                     "padding": "10px",
-                                                    "border": "8px groove silver"
+                                                    "border": "4px groove silver"
                                                 },
                                                 "c": [
                                                     {
@@ -155,7 +156,7 @@ jsonHash[divHTML.id].c=[
                                                     {
                                                         "e": "DIV",
                                                         "id": "DIVDistortedMirrorSummary",
-                                                        "innerHTML": "[joking]I managed to break the laws of physics twice, first by bending light, and once again by modifying how light reflects.[/joking] =]<div><br></div><div><i>Open <a href=\"https://distortedmirror.github.io/cam.html\">https://distortedmirror.github.io/cam.html</a> with your Android or iPhone (and approve camera access) to see light bend!</i></div><div><i><br></i></div><div><i>Open <a href=\"https://distortedmirror.github.io/\">https://distortedmirror.github.io/</a> on Android, iPhone or Desktop</i><i>&nbsp;(and approve camera access)</i><i>&nbsp;to see light reflect different than mirrors do</i></div><p align=\"left\">Distorted Mirror stemmed from my endeavor to learn webGL for directly interfacing with Graphics Processing Units, which basically implements LA (Linear Algebra), VA (Vector Analysis) and PDE (Partial Differential Equations) mathematics in silicon, I set a goal to implement a video texture map, after which I progressed to texture map video from a camera device. I didn't even imagine it would implement a mirror, and visually realized it reflected differently than a mirror.&nbsp; I have considered implementing it, per the laws of optics with the proper physics equations.</p>",
+                                                        "innerHTML": "<joking>I managed to break the laws of physics twice, first by bending light, and once again by modifying how light reflects.</joking> =]<div><br></div><div><i>Open <a href=\"https://distortedmirror.github.io/cam.html\">https://distortedmirror.github.io/cam.html</a> with your Android or iPhone (and approve camera access) to see light bend!</i></div><div><i><br></i></div><div><i>Open <a href=\"https://distortedmirror.github.io/\">https://distortedmirror.github.io/</a> on Android, iPhone or Desktop</i><i>&nbsp;(and approve camera access)</i><i>&nbsp;to see light reflect different than mirrors do</i></div><p align=\"left\">Distorted Mirror stemmed from my endeavor to learn webGL for directly interfacing with Graphics Processing Units, which basically implements LA (Linear Algebra), VA (Vector Analysis) and PDE (Partial Differential Equations) mathematics in silicon, I set a goal to implement a video texture map, after which I progressed to texture map video from a camera device. I didn't even imagine it would implement a mirror, and visually realized it reflected differently than a mirror.&nbsp; I have considered implementing it, per the laws of optics with the proper physics equations.</p>",
                                                         "stylesheetid": "STYLEPage",
                                                         "styleruletype": "Class",
                                                         "class": "DIVProjectSummary",
@@ -480,23 +481,23 @@ jsonHash[divHTML.id].c=[
                                                 ]
                                             }
                                         ]
+                                    },
+                                    {
+                                        "e": "DIV",
+                                        "id": "DIVPageHitCounter",
+                                        "innerHTML": "%3Ca%20href%3D%22https%3A//www.freecounterstat.com%22%20title%3D%22website%20hits%20counter%22%3E%3Cimg%20src%3D%22https%3A//counter7.stat.ovh/private/freecounterstat.php%3Fc%3D2dfelmwt9z41ak1kbuh1htbnkbl2bcxq%22%20border%3D%220%22%20title%3D%22website%20hits%20counter%22%20alt%3D%22website%20hits%20counter%22%3E%3C/a%3E",
+                                        "stylesheetid": "STYLEPage",
+                                        "styleruletype": "ID",
+                                        "style": {
+                                            "position": "absolute",
+                                            "right": "0%",
+                                            "top": "0%",
+                                            "padding": "10px",
+                                            "margin-right": "-30px",
+                                            "transform": "matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0,0, 0, 0, 1)"
+                                        }
                                     }
                                 ]
-                            },
-                            {
-                                "e": "DIV",
-                                "id": "DIVPageHitCounter",
-                                "innerHTML": "%3Ca%20href%3D%22https%3A//www.freecounterstat.com%22%20title%3D%22website%20hits%20counter%22%3E%3Cimg%20src%3D%22https%3A//counter7.stat.ovh/private/freecounterstat.php%3Fc%3D2dfelmwt9z41ak1kbuh1htbnkbl2bcxq%22%20border%3D%220%22%20title%3D%22website%20hits%20counter%22%20alt%3D%22website%20hits%20counter%22%3E%3C/a%3E",
-                                "stylesheetid": "STYLEPage",
-                                "styleruletype": "ID",
-                                "style": {
-                                    "position": "absolute",
-                                    "right": "0%",
-                                    "top": "0%",
-                                    "padding": "10px",
-                                    "margin-right": "0px",
-                                    "transform": "matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0,0, 0, 0, 1)"
-                                }
                             }
                         ]
                     },
@@ -510,17 +511,20 @@ jsonHash[divHTML.id].c=[
                             "position": "fixed",
                             "left": "50%",
                             "bottom": "0%",
-                            "color": "black"
+                            "color": "black",
+                            "width": "300px",
+                            "text-align": "center",
+                            "margin-left": "-150px"
                         },
                         "c": [
                             {
                                 "e": "A",
                                 "id": "AMadeWithWebBuilder",
-                                "innerHTML": "Made%20with%20my%20HTML%20/CSS%20/Javascript%20IDE%2C%20Web%20Builder",
+                                "innerHTML": "Made%20with%20Web%20Builder",
                                 "stylesheetid": "STYLEPage",
                                 "styleruletype": "ID",
                                 "style": {
-                                    "color": "black",
+                                    "color": "#333333",
                                     "font-style": "italic"
                                 },
                                 "href": "https%3A//distortedmirror.github.io/football/WebBuilder.html%3Fjs%3Dportfolio.js"

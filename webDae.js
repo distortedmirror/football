@@ -649,9 +649,9 @@ jsonHash[divHTML.id].c=[
                                                 "e": "OPTION",
                                                 "id": "OPTIONModel6",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Glock",
+                                                "innerHTML": "AK47",
                                                 "style": {},
-                                                "value": "models/glock/glock.dae"
+                                                "value": "models/ak47/ak47.dae"
                                             }
                                         ],
                                         "multiple": "true",
@@ -751,25 +751,25 @@ jsonHash[divHTML.id].c=[
                                                 "e": "OPTION",
                                                 "id": "OPTIONControl10",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Glock%20Rotate",
+                                                "innerHTML": "AK47%20Rotate",
                                                 "style": {},
-                                                "value": "glock_Grip+rotate"
+                                                "value": "ak47_Plane.001+rotate"
                                             },
                                             {
                                                 "e": "OPTION",
                                                 "id": "OPTIONControl11",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Glock%20Translate",
+                                                "innerHTML": "AK47%20Translate",
                                                 "style": {},
-                                                "value": "glock_Grip+translate"
+                                                "value": "ak47_Plane.001+translate"
                                             },
                                             {
                                                 "e": "OPTION",
                                                 "id": "OPTIONControl12",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Glock%20Scale",
+                                                "innerHTML": "AK47%20Scale",
                                                 "style": {},
-                                                "value": "glock_Grip+scale"
+                                                "value": "ak47_Plane.001+scale"
                                             }
                                         ],
                                         "multiple": "true",

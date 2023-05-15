@@ -327,19 +327,19 @@
   </library_effects>
   <library_images>
     <image id="ak_bullet_BaseColor_png_001" name="ak_bullet_BaseColor_png_001">
-      <init_from>ak_bullet_BaseColor.png.001.png</init_from>
+      <init_from>ak_bullet_BaseColor.png</init_from>
     </image>
     <image id="ak_gun_BaseColor_png_002" name="ak_gun_BaseColor_png_002">
-      <init_from>ak_gun_BaseColor.png.002.png</init_from>
+      <init_from>ak_gun_BaseColor.png</init_from>
     </image>
     <image id="ak_mag_BaseColor_png" name="ak_mag_BaseColor_png">
       <init_from>ak_mag_BaseColor.png</init_from>
     </image>
     <image id="ak_metalhand_BaseColor_png_001" name="ak_metalhand_BaseColor_png_001">
-      <init_from>ak_metalhand_BaseColor.png.001.png</init_from>
+      <init_from>ak_metalhand_BaseColor.png</init_from>
     </image>
     <image id="ak_wood1_BaseColor_png_002" name="ak_wood1_BaseColor_png_002">
-      <init_from>ak_wood1_BaseColor.png.002.png</init_from>
+      <init_from>ak_wood1_BaseColor.png</init_from>
     </image>
     <image id="ak_wood2_BaseColor_png" name="ak_wood2_BaseColor_png">
       <init_from>ak_wood2_BaseColor.png</init_from>

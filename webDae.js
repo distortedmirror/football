@@ -753,7 +753,7 @@ jsonHash[divHTML.id].c=[
                                                 "contenteditable": "false",
                                                 "innerHTML": "AK47%20Rotate",
                                                 "style": {},
-                                                "value": "ak47_Plane.001+rotate"
+                                                "value": "ak47_root+rotate"
                                             },
                                             {
                                                 "e": "OPTION",
@@ -761,7 +761,7 @@ jsonHash[divHTML.id].c=[
                                                 "contenteditable": "false",
                                                 "innerHTML": "AK47%20Translate",
                                                 "style": {},
-                                                "value": "ak47_Plane.001+translate"
+                                                "value": "ak47_root+translate"
                                             },
                                             {
                                                 "e": "OPTION",
@@ -769,7 +769,7 @@ jsonHash[divHTML.id].c=[
                                                 "contenteditable": "false",
                                                 "innerHTML": "AK47%20Scale",
                                                 "style": {},
-                                                "value": "ak47_Plane.001+scale"
+                                                "value": "ak47_root+scale"
                                             }
                                         ],
                                         "multiple": "true",

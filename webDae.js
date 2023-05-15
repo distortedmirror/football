@@ -636,6 +636,22 @@ jsonHash[divHTML.id].c=[
                                                 "innerHTML": "Monster",
                                                 "style": {},
                                                 "value": "models/monster/monster.dae"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONModel5",
+                                                "contenteditable": "false",
+                                                "innerHTML": "357",
+                                                "style": {},
+                                                "value": "models/gun/gun.dae"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONModel6",
+                                                "contenteditable": "false",
+                                                "innerHTML": "Tauros Pistol",
+                                                "style": {},
+                                                "value": "models/pistol_tauros/pistol_tauros.dae"
                                             }
                                         ],
                                         "multiple": "true",
@@ -706,6 +722,54 @@ jsonHash[divHTML.id].c=[
                                                 "innerHTML": "Monster%20Scale",
                                                 "style": {},
                                                 "value": "monster_monster+scale"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONControl7",
+                                                "contenteditable": "false",
+                                                "innerHTML": "357%20Rotate",
+                                                "style": {},
+                                                "value": "gun_instance_0+rotate"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONControl8",
+                                                "contenteditable": "false",
+                                                "innerHTML": "357%20Translate",
+                                                "style": {},
+                                                "value": "gun_instance_0+translate"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONControl9",
+                                                "contenteditable": "false",
+                                                "innerHTML": "357%20Scale",
+                                                "style": {},
+                                                "value": "gun_instance_0+scale"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONControl10",
+                                                "contenteditable": "false",
+                                                "innerHTML": "Tauros%20Pistol%20Rotate",
+                                                "style": {},
+                                                "value": "pistol_tauros_Círculo_008+rotate"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONControl11",
+                                                "contenteditable": "false",
+                                                "innerHTML": "Tauros%20Pistol%20Translate",
+                                                "style": {},
+                                                "value": "pistol_tauros_Círculo_008+translate"
+                                            },
+                                            {
+                                                "e": "OPTION",
+                                                "id": "OPTIONControl12",
+                                                "contenteditable": "false",
+                                                "innerHTML": "Tauros%20Pistol%20Scale",
+                                                "style": {},
+                                                "value": "pistol_tauros_Círculo_008+scale"
                                             }
                                         ],
                                         "multiple": "true",

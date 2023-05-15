@@ -23,13 +23,23 @@
         }
     </style>
 </head>
-<body>
+<body onload="toggleFullScreen();">
     <script src="../build/three.js"></script>
     <script src="js/loaders/ColladaLoader.js"></script>
     <script src="js/Detector.js"></script>
     <script src="js/libs/stats.min.js"></script>
     <script src="js/controllers/TransformControls4.js"></script>
     <script>
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else if (document.exitFullscreen) {
+    document.exitFullscreen();
+  }
+}
+
+	    
+	    
 if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 var worldScale=0.0040;
 var transformControlsSize=1.0;

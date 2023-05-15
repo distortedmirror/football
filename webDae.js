@@ -649,9 +649,9 @@ jsonHash[divHTML.id].c=[
                                                 "e": "OPTION",
                                                 "id": "OPTIONModel6",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Tauros Pistol",
+                                                "innerHTML": "Glock",
                                                 "style": {},
-                                                "value": "models/pistol_tauros/pistol_tauros.dae"
+                                                "value": "models/glock/glock.dae"
                                             }
                                         ],
                                         "multiple": "true",
@@ -751,25 +751,25 @@ jsonHash[divHTML.id].c=[
                                                 "e": "OPTION",
                                                 "id": "OPTIONControl10",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Tauros%20Pistol%20Rotate",
+                                                "innerHTML": "Glock%20Rotate",
                                                 "style": {},
-                                                "value": "pistol_tauros_Círculo_008+rotate"
+                                                "value": "glock_Grip+rotate"
                                             },
                                             {
                                                 "e": "OPTION",
                                                 "id": "OPTIONControl11",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Tauros%20Pistol%20Translate",
+                                                "innerHTML": "Glock%20Translate",
                                                 "style": {},
-                                                "value": "pistol_tauros_Círculo_008+translate"
+                                                "value": "glock_Grip+translate"
                                             },
                                             {
                                                 "e": "OPTION",
                                                 "id": "OPTIONControl12",
                                                 "contenteditable": "false",
-                                                "innerHTML": "Tauros%20Pistol%20Scale",
+                                                "innerHTML": "Glock%20Scale",
                                                 "style": {},
-                                                "value": "pistol_tauros_Círculo_008+scale"
+                                                "value": "glock_Grip+scale"
                                             }
                                         ],
                                         "multiple": "true",

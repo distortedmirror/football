@@ -30,12 +30,14 @@
     <script src="js/libs/stats.min.js"></script>
     <script src="js/controllers/TransformControls4.js"></script>
     <script>
-function toggleFullScreen() {
+function toggleFullScreen(){
+try{
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen();
   } else if (document.exitFullscreen) {
     document.exitFullscreen();
   }
+}catch(Exception e){console.log('Fullscreen Mode Denied');}
 }
 
 	    
